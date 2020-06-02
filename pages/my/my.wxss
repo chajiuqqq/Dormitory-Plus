@@ -1,0 +1,46 @@
+.bg{
+  background-color:#D3D3D3;
+}
+.info-container{
+  height:35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.headImage{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.userName-text{
+
+}
+.function-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90vw;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  background-color: white;
+  border-radius: 4px;
+}
+.function-item-container{
+  height: 160rpx;
+  width: 160rpx;
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin:30rpx;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.function-item-image{
+  width: 50%;
+  height: 50%;
+}

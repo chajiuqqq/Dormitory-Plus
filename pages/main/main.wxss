@@ -1,0 +1,37 @@
+
+.main-container{
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.swiper-tab{  
+  width: 750rpx;  
+  border-bottom: 2rpx solid #eee;  
+  text-align: left;  
+  line-height: 80rpx;
+  background: #fff;
+  font-size: 14px;
+}  
+ 
+.swiper-tab-list{  
+  font-size: 34rpx;  
+  display: inline-block;  
+  width: 200rpx;  
+  color: #333; 
+  text-align: center;
+}
+.on{ 
+  color: #dd2727;
+  border-bottom: 5rpx solid #dd2727;
+} 
+.content-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.swiper-box{
+  height: 90vh;
+}
+

@@ -1,0 +1,29 @@
+Page({
+  data:{
+    "headImagePath":"/images/headImage/head.jpg",
+    "userName":"小余",
+    "functionList":[
+      {
+        "imagePath":"/images/icons/functionIcnos/wode.png",
+        "title":"我的信息"
+      },
+      {
+        "imagePath":"/images/icons/functionIcnos/water.png",
+        "title":"在线订水"
+      },
+      {
+        "imagePath":"/images/icons/functionIcnos/fix.png",
+        "title":"预定维修"
+      },
+      {
+        "imagePath":"/images/icons/functionIcnos/contact.png",
+        "title":"联络汇总"
+      },
+      {
+        "imagePath":"/images/icons/functionIcnos/tousu.png",
+        "title":"寝室投诉"
+      }
+
+    ]
+  }
+})

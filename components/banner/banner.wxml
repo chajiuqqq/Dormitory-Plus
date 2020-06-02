@@ -1,0 +1,7 @@
+ <view class="banner-container">
+    <swiper class="banner-swiper" indicator-dots="true">
+        <swiper-item wx:for="{{imageList}}" >
+            <image src="{{item.imagePath}}" class="banner-image" ></image>
+        </swiper-item>
+    </swiper>
+</view>
