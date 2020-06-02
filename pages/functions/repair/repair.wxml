@@ -1,0 +1,29 @@
+
+<form>
+<view class="con">
+<view class="table">
+    <view class="tr bg-g" >
+      <view class="td">楼号:</view>
+      <view class="td"><input placeholder="请输入楼号" value="44号楼"></input></view>
+    </view> 
+ <view class="tr" >
+      <view class="td">寝室号:</view>
+      <view class="td"><input placeholder="请输入寝室号" value="308"></input></view>
+    </view>
+    <view class="tr bg-g" >
+      <view class="td">报修人:</view>
+      <view class="td"><input placeholder="请输入姓名" value="小余"></input></view>
+    </view>  
+     <view class="tr" >
+      <view class="td">问题描述:</view>
+      <view class="td"><input placeholder="请输入问题描述" value=""></input></view>
+    </view>
+        <view class="tr bg-g" >
+      <view class="td">报修时间:</view>
+      <view class="td"><input class="date" placeholder="请输入报修时间" value="6月15日"></input></view>
+    </view>
+</view>
+
+<button bindtap="f1">确认提交</button>
+</view>
+</form>
