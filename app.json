@@ -4,8 +4,8 @@
     "pages/main/main",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/information/information",
-    "pages/repair/repair"
+    "pages/functions/information/information",
+    "pages/functions/repair/repair"
   ],
   "window":{
     "backgroundTextStyle":"light",
