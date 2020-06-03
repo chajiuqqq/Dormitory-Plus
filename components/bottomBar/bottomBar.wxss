@@ -1,0 +1,7 @@
+.main{
+  width: 750rpx;
+  height: 40px;
+  background-color: orange;
+  position: absolute;
+  bottom: 0px;
+}

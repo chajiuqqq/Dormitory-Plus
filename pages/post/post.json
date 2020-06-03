@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText":"详情",
+  "usingComponents":{
+    "bottomBar":"../../components/bottomBar/bottomBar",
+    "banner":"/components/banner/banner"
+  }
+  
+}

@@ -23,7 +23,7 @@
             
             <swiper-item>
                 <scroll-view scroll-y="true" class="content-container">
-                    <showedItem showedItemList="{{forHelpList}}" type="1"></showedItem>
+                    <showedItem showedItemList="{{forHelpList}}" type="2"></showedItem>
                 </scroll-view>
             </swiper-item>
           </swiper>
