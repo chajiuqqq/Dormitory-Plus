@@ -1,30 +1,30 @@
 Page({
   data:{
-    "headImagePath":"/images/headImage/head.jpg",
+    "headImagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/headImage/head.jpg",
     "userName":"小余",
     "functionList":[
       {
-        "imagePath":"/images/icons/functionIcnos/wode.png",
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/wode.png",
         "title":"我的信息",
         "funname":"f1"
       },
       {
-        "imagePath":"/images/icons/functionIcnos/water.png",
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/water.png",
         "title":"在线订水",
         "funname":"f2"
       },
       {
-        "imagePath":"/images/icons/functionIcnos/fix.png",
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/fix.png",
         "title":"预定维修",
         "funname":"f3"
       },
       {
-        "imagePath":"/images/icons/functionIcnos/contact.png",
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/contact.png",
         "title":"联络汇总",
         "funname":"f4"
       },
       {
-        "imagePath":"/images/icons/functionIcnos/tousu.png",
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/tousu.png",
         "title":"寝室投诉",
         "funname":"f5"
       }
