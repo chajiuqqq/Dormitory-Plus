@@ -37,7 +37,9 @@ Page({
     })
   },
   f2: function() {
- 
+    wx.navigateTo({
+      url: '/pages/functions/waterbooking/waterbooking'
+    })
   },
   f3: function() {
     wx.navigateTo({
@@ -45,9 +47,13 @@ Page({
     })
   },
   f4: function() {
- 
+    wx.navigateTo({
+      url: '/pages/functions/connection/connection'
+    })
   },
   f5: function() {
-
+    wx.navigateTo({
+      url: '/pages/functions/complaint/complaint'
+    })
   }
 })

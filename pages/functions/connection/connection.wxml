@@ -1,0 +1,23 @@
+
+<form>
+<view class="con">
+<view class="table">
+    <view class="tr bg-g" >
+      <view class="td">宿管阿姨:</view>
+      <view class="td">177-1777-0000</view>
+    </view>
+    <view class="tr" >
+      <view class="td">门卫室:</view>
+      <view class="td">8888-6666</view>
+    </view>  
+    <view class="tr bg-g" >
+      <view class="td">空调报修:</view>
+      <view class="td">166-6666-6666</view>
+    </view>      
+    <view class="tr" >
+      <view class="td">快递上门:</view>
+      <view class="td">2605-1111</view>
+    </view>  
+</view>
+</view>
+</form>

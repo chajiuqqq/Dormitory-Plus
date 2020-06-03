@@ -5,7 +5,10 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/functions/information/information",
-    "pages/functions/repair/repair"
+    "pages/functions/repair/repair",
+    "pages/functions/waterbooking/waterbooking",
+    "pages/functions/complaint/complaint",
+    "pages/functions/connection/connection"
   ],
   "window":{
     "backgroundTextStyle":"light",

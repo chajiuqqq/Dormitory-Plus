@@ -1,0 +1,25 @@
+
+<form>
+<view class="con">
+<view class="table">
+   
+    <view class="tr bg-g" >
+      <view class="td">楼号:</view>
+      <view class="td"><input placeholder="请输入楼号" value="44号楼"></input></view>
+    </view>      
+    <view class="tr" >
+      <view class="td">寝室号:</view>
+      <view class="td"><input placeholder="请输入寝室号" value="308"></input></view>
+    </view>  
+     <view class="tr bg-g" >
+      <view class="td">期望时间:</view>
+      <view class="td"><input placeholder="请输入楼号" value="立即送达"></input></view>
+    </view>      
+    <view class="tr" >
+      <view class="td">价格:</view>
+      <view class="td"><input placeholder="请输入价格" value="18元"></input></view>
+    </view>  
+</view>
+<button bindtap="f1" class="change-button">立即预定</button>
+</view>
+</form>
