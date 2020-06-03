@@ -1,0 +1,32 @@
+Component({
+  data:{
+    thumbBefore:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/notSelected/thumb.png",
+    favourBefore:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/notSelected/favour.png",
+    thumbAfter:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/selected/thumb-after.png",
+    favourAfter:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/selected/favour-after.png",
+    thumbFlag:false,
+    favourFlag:false
+  },
+  attached:function(){
+      this.setData({
+        thumbPath:this.data.thumbBefore,
+        favourPath:this.data.favourBefore
+      })
+  },
+  methods:{
+    click:function(e){
+        var type = e.currentTarget.dataset.type
+        if(type == 0){
+          this.setData({
+            thumbPath:this.data.thumbFlag?this.data.thumbBefore:this.data.thumbAfter
+          })
+          this.data.thumbFlag=!this.data.thumbFlag
+        }else{
+          this.setData({
+           favourPath:this.data.favourFlag?this.data.favourBefore:this.data.favourAfter
+          })
+          this.data.favourFlag=!this.data.favourFlag
+        }
+    }
+  }
+})

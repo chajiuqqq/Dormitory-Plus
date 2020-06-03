@@ -1,5 +1,5 @@
 <view>
-    <scroll-view scroll-y style="height:90vh">
+    <scroll-view scroll-y style="height:95vh">
           <view class="top">
               <image class="headImage" src="cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/headImage/head.jpg"></image>
               <view class="info">
@@ -17,6 +17,5 @@
             </view>
           </view>
     </scroll-view>  
-    <banner></banner>
-    <bottomBar></bottomBar>
+    <bottom-bar></bottom-bar>
 </view>

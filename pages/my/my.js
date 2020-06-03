@@ -1,7 +1,7 @@
 Page({
   data:{
     "headImagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/headImage/head.jpg",
-    "userName":"小余",
+    "userName":"小周",
     "functionList":[
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/functionIcons/wode.png",

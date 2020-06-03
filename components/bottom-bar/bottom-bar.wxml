@@ -1,0 +1,12 @@
+<view class="main">
+  <view class="icon-button" data-type="0" catchtap="click">
+    <image src="{{thumbPath}}"></image>
+    <text class="sub-text">点赞</text>
+  </view>
+
+  <view class="icon-button" data-type="1" catchtap="click">
+    <image src="{{favourPath}}"></image>
+    <text class="sub-text">收藏</text>
+  </view>
+
+</view>
