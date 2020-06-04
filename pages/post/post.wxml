@@ -1,0 +1,22 @@
+<view>
+    <scroll-view scroll-y style="height:95vh">
+          <view class="top">
+              <image class="headImage" src="{{headPath}}"></image>
+              <view class="info">
+                  <text class="user-name">小周</text>
+                  <text class="user-tag">上海师范大学</text>
+                  <text class="user-tag">44号楼</text>
+              <text></text>  
+              </view>
+          </view>
+          <view class="main">
+            <text class="{{type == 0 ? 'price':'date'}}" >{{type == 0 ? '￥':''}}{{title1}}</text>
+            
+            <text class="post-title">{{title2}}</text> 
+            <view class="rich-text-container">
+                <rich-text nodes="{{htmlContext}}"></rich-text>
+            </view>
+          </view>
+    </scroll-view>  
+    <bottom-bar></bottom-bar>
+</view>

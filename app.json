@@ -1,14 +1,15 @@
 {
   "pages":[
-    "pages/my/my",
     "pages/main/main",
+    "pages/post/post",
+    "pages/my/my",
     "pages/index/index",
     "pages/logs/logs",
     "pages/functions/information/information",
     "pages/functions/repair/repair",
-    "pages/functions/waterbooking/waterbooking",
     "pages/functions/complaint/complaint",
-    "pages/functions/connection/connection"
+    "pages/functions/connection/connection",
+    "pages/functions/waterbooking/waterbooking"
   ],
   "window":{
     "backgroundTextStyle":"light",

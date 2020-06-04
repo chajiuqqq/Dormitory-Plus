@@ -1,0 +1,22 @@
+.main{
+  width: 750rpx;
+  height: 55px;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+}
+image{
+  width: 25px;
+  height: 25px;
+}
+.sub-text{
+  display: block;
+  font-size: smaller;
+  color: grey;
+}
+.icon-button{
+  margin: 5px 10px;
+}
