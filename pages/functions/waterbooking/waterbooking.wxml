@@ -5,7 +5,7 @@
    
     <view class="tr bg-g" >
       <view class="td">楼号:</view>
-      <view class="td"><input placeholder="请输入楼号" value="44号楼"></input></view>
+      <view class="td"><input placeholder="请输入楼号" value="44"></input></view>
     </view>      
     <view class="tr" >
       <view class="td">寝室号:</view>
@@ -13,13 +13,21 @@
     </view>  
      <view class="tr bg-g" >
       <view class="td">期望时间:</view>
-      <view class="td"><input placeholder="请输入楼号" value="立即送达"></input></view>
+      <view class="td">
+        <picker value="{{timeIndex}}" range="{{time}}" bindchange="bindTimeChange">
+           {{time[timeIndex]}}
+        </picker>
+      </view>
     </view>      
     <view class="tr" >
       <view class="td">价格:</view>
-      <view class="td"><input placeholder="请输入价格" value="18元"></input></view>
+      <view class="td">
+        <picker bindchange="bindPickerChange" value="{{priceIndex}}" range="{{priceClass}}">
+          <text>{{priceClass[priceIndex]}}元</text>
+        </picker>
+      </view>
     </view>  
 </view>
-<button bindtap="f1" class="change-button">立即预定</button>
+<button bindtap="f1" class="change-button" type="primary">立即预定</button>
 </view>
 </form>

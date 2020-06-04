@@ -4,8 +4,8 @@
     <text class="userName-text">{{userName}}</text>
   </view>
   <view class="function-container">
-    <view  class="function-item-container" wx:for="{{functionList}}">
-      <image  bindtap="{{item.funname}}" class="function-item-image" src="{{item.imagePath}}"></image>
+    <view  class="function-item-container" wx:for="{{functionList}}" bindtap="{{item.funname}}">
+      <image class="function-item-image" src="{{item.imagePath}}"></image>
       <text class="function-item-title">{{item.title}}</text>
     </view>
   </view>
