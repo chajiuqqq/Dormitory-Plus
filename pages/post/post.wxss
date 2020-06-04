@@ -27,7 +27,7 @@
   font-family: '微软雅黑';
 
 }
-.tag{
+.user-tag{
   padding: 3px;
   border-radius: 4px;
   background-color: lightblue;
@@ -44,8 +44,16 @@
   font-weight: bold;
   margin-left: 20px;
 }
+.date{
+  color: white;
+  margin-left: 20px;
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 3px;
+  
+}
 .post-title{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .rich-text-container{
@@ -53,3 +61,10 @@
   padding: 20px;  
 }
 
+.item-tag{
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding: 2px;
+}

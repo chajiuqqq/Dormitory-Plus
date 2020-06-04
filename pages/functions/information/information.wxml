@@ -4,7 +4,7 @@
 <view class="table">
     <view class="tr bg-g" >
       <view class="td">姓名:</view>
-      <view class="td"><input placeholder="请输入姓名" value="小余"></input></view>
+      <view class="td"><input placeholder="请输入姓名" value="小周"></input></view>
     </view>
     <view class="tr" >
       <view class="td">学号:</view>

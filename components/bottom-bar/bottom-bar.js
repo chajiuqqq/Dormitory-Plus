@@ -1,9 +1,10 @@
+const path='cloud://text1-ig7qz.7465-text1-ig7qz-1302316905'
 Component({
   data:{
-    thumbBefore:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/notSelected/thumb.png",
-    favourBefore:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/notSelected/favour.png",
-    thumbAfter:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/selected/thumb-after.png",
-    favourAfter:"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/icons/selected/favour-after.png",
+    thumbBefore:path + "/images/icons/notSelected/thumb.png",
+    favourBefore:path + "/images/icons/notSelected/favour.png",
+    thumbAfter:path + "/images/icons/selected/thumb-after.png",
+    favourAfter:path + "/images/icons/selected/favour-after.png",
     thumbFlag:false,
     favourFlag:false
   },

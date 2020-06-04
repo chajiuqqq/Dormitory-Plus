@@ -1,71 +1,72 @@
+const path='cloud://text1-ig7qz.7465-text1-ig7qz-1302316905'
 Page({
   data:{
     "secondHandBannerList":[
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner-sh.png"
+        "imagePath":path + "/images/banner/banner-sh.png"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner1.jpg"
+        "imagePath":path + "/images/banner/banner1.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner2.jpg"
+        "imagePath":path + "/images/banner/banner2.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner3.jpg"
+        "imagePath":path + "/images/banner/banner3.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner4.jpg"
+        "imagePath":path + "/images/banner/banner4.jpg"
       }
     ],
     "reclaimBannerList":[
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner-shiwu.png"
+        "imagePath":path + "/images/banner/banner-lost.png"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner2.jpg"
+        "imagePath":path + "/images/banner/banner2.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner5.jpg"
+        "imagePath":path + "/images/banner/banner5.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner6.jpg"
+        "imagePath":path + "/images/banner/banner6.jpg"
       }
     ],
     "secondHandItemList":[
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/cap.jpg",
-        "title1":"￥50",
+        "imagePath":path + "/images/showedItemImages/cap.jpg",
+        "title1":"50",
         "title2":"95新可爱茶具",
         "id":1234
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images//secondHandItems/chair.jpg",
-        "title1":"￥230",
+        "imagePath":path + "/images/showedItemImages/chair.jpg",
+        "title1":"230",
         "title2":"自用99新家用靠椅",
         "id":1235
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/shoes.jpg",
-        "title1":"￥175",
+        "imagePath":path + "/images/showedItemImages/shoes.jpg",
+        "title1":"175",
         "title2":"95新女生自穿时尚跑鞋",
         "id":1236
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/shoes2.jpg",
-        "title1":"￥300",
+        "imagePath":path + "/images/showedItemImages/shoes2.jpg",
+        "title1":"300",
         "title2":"男生自穿匡威特价出售",
         "id":1237
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/toy.jpg",
-        "title1":"￥120",
+        "imagePath":path + "/images/showedItemImages/toy.jpg",
+        "title1":"120",
         "title2":"可爱玩偶5只打包",
         "id":1238
       }
     ],
     "reclaimItemList":[
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/airpods.jpg",
+        "imagePath":path + "/images/showedItemImages/airpods.jpg",
         "title2":"捡到白色无套airpods整体",
         "title1":"1天前",
         "tags":[
@@ -74,7 +75,7 @@ Page({
         "id":12
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/bags.jpg",
+        "imagePath":path + "/images/showedItemImages/bags.jpg",
         "title1":"2天前",
         "tags":[
           "4A105"
@@ -83,7 +84,7 @@ Page({
         "id":13
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/book.jpg",
+        "imagePath":path + "/images/showedItemImages/book.jpg",
         "title1":"2天前",
         "tags":[
           "五教",
@@ -93,7 +94,7 @@ Page({
         "id":14
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/wallet.jpg",
+        "imagePath":path + "/images/showedItemImages/wallet.jpg",
         "title1":"2天前",
         "tags":[
           "4A105"
@@ -104,7 +105,7 @@ Page({
     ],
       "forHelpList":[
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/airpods.jpg",
+          "imagePath":path + "/images/showedItemImages/airpods.jpg",
           "title2":"寻找白色无套airpods整体",
           "title1":"1天前",
           "tags":[
@@ -112,7 +113,7 @@ Page({
           ]
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/bags.jpg",
+          "imagePath":path + "/images/showedItemImages/bags.jpg",
           "title1":"2天前",
           "tags":[
             "4A105"
@@ -120,7 +121,7 @@ Page({
           "title2":"寻找黑色香奈儿包包一个"
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/book.jpg",
+          "imagePath":path + "/images/showedItemImages/book.jpg",
           "title1":"2天前",
           "tags":[
             "五教",
@@ -129,7 +130,7 @@ Page({
           "title2":"寻找丢失的计算机能力大全"
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/wallet.jpg",
+          "imagePath":path + "/images/showedItemImages/wallet.jpg",
           "title1":"2天前",
           "tags":[
             "4A105"
@@ -137,7 +138,7 @@ Page({
           "title2":"本人遗失灰色钱包一个如图所示"
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/airpods.jpg",
+          "imagePath":path + "/images/showedItemImages/airpods.jpg",
           "title2":"捡到白色无套airpods整体",
           "title1":"1天前",
           "tags":[
@@ -145,7 +146,7 @@ Page({
           ]
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/bags.jpg",
+          "imagePath":path + "/images/showedItemImages/bags.jpg",
           "title1":"2天前",
           "tags":[
             "4A105"
@@ -153,7 +154,7 @@ Page({
           "title2":"捡到黑色香奈儿包包一个"
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/book.jpg",
+          "imagePath":path + "/images/showedItemImages/book.jpg",
           "title1":"2天前",
           "tags":[
             "五教",
@@ -162,7 +163,7 @@ Page({
           "title2":"寻找丢失的计算机能力大全"
         },
         {
-          "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/wallet.jpg",
+          "imagePath":path + "/images/showedItemImages/wallet.jpg",
           "title1":"2天前",
           "tags":[
             "4A105"

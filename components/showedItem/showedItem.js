@@ -20,12 +20,12 @@ Component({
   },
   methods:{
     "navigateTo":function(event){
-      console.log(event)
-      var type=event.currentTarget.dataset.type
-      var title=event.currentTarget.dataset.title
-      var id=event.currentTarget.dataset.itemId
+      var showedItem=event.currentTarget.dataset.showedItem
+      var title2=showedItem.title2
+      var id=showedItem.itemId
+      var title1 = showedItem.title1
       wx.navigateTo({
-        url: '/pages/post/post?type='+type+'&title='+title+'&id='+id
+        url: '/pages/post/post?type='+this.data.type+'&title1='+ title1 +'&id='+ id + '&title2=' + title2
       })
     }
   }
