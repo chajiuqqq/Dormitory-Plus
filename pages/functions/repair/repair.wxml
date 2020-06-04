@@ -15,12 +15,12 @@
       <view class="td"><input placeholder="请输入姓名" value="小余"></input></view>
     </view>  
      <view class="tr" >
-      <view class="td">问题描述:</view>
-      <view class="td"><input placeholder="请输入问题描述" value=""></input></view>
+      <view class="td">报修时间:</view>
+      <view class="td"><input placeholder="请输入报修时间"  value="6月15日"></input></view>
     </view>
         <view class="tr bg-g" >
-      <view class="td">报修时间:</view>
-      <view class="td"><input class="date" placeholder="请输入报修时间" value="6月15日"></input></view>
+      <view class="td">问题描述:</view>
+      <view class="td"><input class="date" placeholder="请输入问题描述" ></input></view>
     </view>
 </view>
 
