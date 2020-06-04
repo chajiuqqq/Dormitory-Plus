@@ -24,6 +24,6 @@
     </view>
 </view>
 
-<button bindtap="f1">确认提交</button>
+<button bindtap="f1" type="primary">确认提交</button>
 </view>
 </form>

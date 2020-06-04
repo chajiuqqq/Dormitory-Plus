@@ -1,0 +1,21 @@
+<view>
+    <scroll-view scroll-y style="height:95vh">
+          <view class="top">
+              <image class="headImage" src="cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/headImage/head.jpg"></image>
+              <view class="info">
+                  <text class="user-name">小周</text>
+                  <text class="tag">上海师范大学</text>
+                  <text class="tag">44号楼</text>
+              <text></text>  
+              </view>
+          </view>
+          <view class="main">
+            <text class="price">￥233</text>
+            <text class="post-title">{{title}}</text> 
+            <view class="rich-text-container">
+                <rich-text nodes="{{htmlContext}}"></rich-text>
+            </view>
+          </view>
+    </scroll-view>  
+    <bottom-bar></bottom-bar>
+</view>

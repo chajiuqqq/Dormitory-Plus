@@ -5,16 +5,16 @@ Page({
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner-sh.png"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/sky.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner1.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/shakehands.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner2.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/person.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner3.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/office.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner4.jpg"
       }
     ],
     "reclaimBannerList":[
@@ -22,40 +22,45 @@ Page({
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner-shiwu.png"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/shakehands.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner2.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/person.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner5.jpg"
       },
       {
-        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/office.jpg"
+        "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/banner/banner6.jpg"
       }
     ],
     "secondHandItemList":[
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/cap.jpg",
         "title1":"￥50",
-        "title2":"95新可爱茶具"
+        "title2":"95新可爱茶具",
+        "id":1234
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images//secondHandItems/chair.jpg",
         "title1":"￥230",
-        "title2":"自用99新家用靠椅"
+        "title2":"自用99新家用靠椅",
+        "id":1235
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/shoes.jpg",
         "title1":"￥175",
-        "title2":"95新女生自穿时尚跑鞋"
+        "title2":"95新女生自穿时尚跑鞋",
+        "id":1236
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/shoes2.jpg",
         "title1":"￥300",
-        "title2":"男生自穿匡威特价出售"
+        "title2":"男生自穿匡威特价出售",
+        "id":1237
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/secondHandItems/toy.jpg",
         "title1":"￥120",
-        "title2":"可爱玩偶5只打包"
+        "title2":"可爱玩偶5只打包",
+        "id":1238
       }
     ],
     "reclaimItemList":[
@@ -65,7 +70,8 @@ Page({
         "title1":"1天前",
         "tags":[
           "四教"
-        ]
+        ],
+        "id":12
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/bags.jpg",
@@ -73,7 +79,8 @@ Page({
         "tags":[
           "4A105"
         ],
-        "title2":"捡到黑色香奈儿包包一个"
+        "title2":"捡到黑色香奈儿包包一个",
+        "id":13
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/book.jpg",
@@ -82,7 +89,8 @@ Page({
           "五教",
           "三楼走廊"
         ],
-        "title2":"捡到计算机能力大全"
+        "title2":"捡到计算机能力大全",
+        "id":14
       },
       {
         "imagePath":"cloud://do-r3ek7.646f-do-r3ek7-1257158075/images/reclaimItems/wallet.jpg",
@@ -90,7 +98,8 @@ Page({
         "tags":[
           "4A105"
         ],
-        "title2":"四教看到灰色钱包"
+        "title2":"四教看到灰色钱包",
+        "id":15
       }
     ],
       "forHelpList":[

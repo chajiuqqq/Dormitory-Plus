@@ -1,5 +1,5 @@
 <view class="showed-item-container">
-  <view wx:for="{{showedItemList}}" wx:for-item="showedItem" class="showed-item" >
+  <view wx:for="{{showedItemList}}" wx:for-item="showedItem" class="showed-item" catchtap="navigateTo" data-type="{{type}}" data-title="{{showedItem.title2}}"  data-item-id="{{showedItem.id}}">
           <image src="{{showedItem.imagePath}}" class="item-img"></image>           
           <view class="item-text-container">
               <text class="{{type==1?'item-date':'item-money'}}">{{showedItem.title1}} </text>

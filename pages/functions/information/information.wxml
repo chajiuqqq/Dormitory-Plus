@@ -19,6 +19,6 @@
       <view class="td"><input placeholder="请输入寝室号" value="308"></input></view>
     </view>  
 </view>
-<button bindtap="f1" class="change-button">确认修改</button>
+<button bindtap="f1" class="change-button" type="primary">确认修改</button>
 </view>
 </form>
