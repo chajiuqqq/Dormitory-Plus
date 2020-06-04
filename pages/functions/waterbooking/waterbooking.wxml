@@ -20,6 +20,6 @@
       <view class="td"><input placeholder="请输入价格" value="18元"></input></view>
     </view>  
 </view>
-<button bindtap="f1" class="change-button">立即预定</button>
+<button bindtap="f1" class="change-button" type="primary">立即预定</button>
 </view>
 </form>

@@ -15,6 +15,6 @@
       <view class="td"><input placeholder="请输入投诉原因" value=""></input></view>
     </view>  
 </view>
-<button bindtap="f1" class="change-button">匿名投诉</button>
+<button bindtap="f1" class="change-button" type="primary">匿名投诉</button>
 </view>
 </form>
