@@ -2,6 +2,10 @@
 <form>
 <view class="con">
 <view class="table">
+    <view class="tr" >
+      <view class="td">学校:</view>
+      <view class="td"><input placeholder="请输入学校" value="上海师范大学"></input></view>
+    </view>
     <view class="tr bg-g" >
       <view class="td">姓名:</view>
       <view class="td"><input placeholder="请输入姓名" value="小周"></input></view>
@@ -12,7 +16,7 @@
     </view>  
     <view class="tr bg-g" >
       <view class="td">楼号:</view>
-      <view class="td"><input placeholder="请输入楼号" value="44号楼"></input></view>
+      <view class="td"><input placeholder="请输入楼号" value="44"></input></view>
     </view>      
     <view class="tr" >
       <view class="td">寝室号:</view>

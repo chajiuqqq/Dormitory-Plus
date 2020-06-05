@@ -1,4 +1,4 @@
-const path='cloud://text1-ig7qz.7465-text1-ig7qz-1302316905'
+const path=getApp().globalData.envPath
 Component({
   data:{
     thumbBefore:path + "/images/icons/notSelected/thumb.png",

@@ -1,4 +1,4 @@
-const path='cloud://text1-ig7qz.7465-text1-ig7qz-1302316905'
+const path=getApp().globalData.envPath
 Page({
   data:{
     "secondHandBannerList":[
@@ -170,7 +170,9 @@ Page({
           ],
           "title2":"本人遗失灰色钱包一个如图所示"
         }
-    ]
+    ],
+    locIconPath:path + "/images/icons/position.png",
+    schoolName:"上海师范大学"
   },
   onLoad:function(){
     this.setData({

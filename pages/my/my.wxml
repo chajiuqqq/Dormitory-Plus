@@ -3,6 +3,10 @@
     <image class="headImage" src="{{headImagePath}}"></image>
     <text class="userName-text">{{userName}}</text>
   </view>
+  <view class="inform-container">
+      <text class="inform-text1">寝室区公告</text>
+      <text class="inform-text2">预计将在6.10进行水质监测...</text>
+  </view>
   <view class="function-container">
     <view  class="function-item-container" wx:for="{{functionList}}" bindtap="{{item.funname}}">
       <image class="function-item-image" src="{{item.imagePath}}"></image>

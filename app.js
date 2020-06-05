@@ -35,6 +35,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    envPath:"cloud://text1-ig7qz.7465-text1-ig7qz-1302316905"
   }
 })
