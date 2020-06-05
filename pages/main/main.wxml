@@ -31,4 +31,5 @@
                 </scroll-view>
             </swiper-item>
           </swiper>
+          <add-button></add-button>
 </view>

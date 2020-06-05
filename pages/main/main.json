@@ -2,6 +2,7 @@
   "navigationBarTitleText":"发现",
   "usingComponents":{
     "banner":"/components/banner/banner",
-    "showedItem":"/components/showedItem/showedItem"
+    "showedItem":"/components/showedItem/showedItem",
+    "add-button":"/components/add-button/add-button"
   }
 }
