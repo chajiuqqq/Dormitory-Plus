@@ -1,5 +1,4 @@
 Page({
-
   f1:function(event){
     wx.showModal({
       title: '提示',

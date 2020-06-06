@@ -1,16 +1,4 @@
 /* pages/repair/repair.wxss */
-.return-button{
-  position: absolute;
-  left: 0;
-  top: 0px;
-  font-size: 26rpx;
-  font-style: italic;
-  border-radius: 10%;
-  border-right: 0;
-}
-.change-button{
-top: auto;
-}
 .con{
   height: 100vmax;
   display: flex;

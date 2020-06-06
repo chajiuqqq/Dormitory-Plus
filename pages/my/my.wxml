@@ -12,5 +12,12 @@
       <image class="function-item-image" src="{{item.imagePath}}"></image>
       <text class="function-item-title">{{item.title}}</text>
     </view>
+
+    <view class="function-item-container" bindtap="f6">
+    <text class="function-item-title">送水处理</text></view>
+    <view class="function-item-container" bindtap="f7">
+    <text class="function-item-title">维修处理</text></view>
+    <view class="function-item-container" bindtap="f8">
+    <text class="function-item-title">投诉处理</text></view>
   </view>
 </view>
