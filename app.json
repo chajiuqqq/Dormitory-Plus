@@ -2,14 +2,17 @@
   "pages":[
     "pages/main/main",
     "pages/my/my",
-    "pages/functions/information/information",
     "pages/post/post",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/functions/repair/repair",
-    "pages/functions/complaint/complaint",
-    "pages/functions/connection/connection",
-    "pages/functions/waterbooking/waterbooking"
+    "pages/functions/user/information/information",
+    "pages/functions/user/repair/repair",
+    "pages/functions/user/complaint/complaint",
+    "pages/functions/user/connection/connection",
+    "pages/functions/user/waterbooking/waterbooking",
+    "pages/functions/management/water/water",
+    "pages/functions/management/complainthanding/complainthanding",
+    "pages/functions/management/maintain/maintain"
   ],
   "window":{
     "backgroundTextStyle":"light",
