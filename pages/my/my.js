@@ -34,27 +34,42 @@ Page({
   },
   f1: function() {
     wx.navigateTo({
-      url: '/pages/functions/information/information'
+      url: '/pages/functions/user/information/information'
     })
   },
   f2: function() {
     wx.navigateTo({
-      url: '/pages/functions/waterbooking/waterbooking'
+      url: '/pages/functions/user/waterbooking/waterbooking'
     })
   },
   f3: function() {
     wx.navigateTo({
-      url: '/pages/functions/repair/repair'
+      url: '/pages/functions/user/repair/repair'
     })
   },
   f4: function() {
     wx.navigateTo({
-      url: '/pages/functions/connection/connection'
+      url: '/pages/functions/user/connection/connection'
     })
   },
   f5: function() {
     wx.navigateTo({
-      url: '/pages/functions/complaint/complaint'
+      url: '/pages/functions/user/complaint/complaint'
     })
-  }
+  },
+  f6: function() {
+    wx.navigateTo({
+      url: '/pages/functions/management/water/water'
+    })
+  },  
+  f7: function() {
+    wx.navigateTo({
+      url: '/pages/functions/management/maintain/maintain'
+    })
+  },  
+  f8: function() {
+    wx.navigateTo({
+      url: '/pages/functions/management/complainthanding/complainthanding'
+    })
+  },
 })
